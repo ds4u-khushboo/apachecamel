@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="Big5"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" classCode="DOCCLIN" moodCode="EVN"
+                  xsi:schemaLocation="urn:hl7-org:v3 ">
+    <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+    <templateId extension="115_V101.0" root="2.16.886.101.20003.20014"/>
+    <id extension="I22100439" root="2.16.886.104.101243.100000"/>
+    <code code="18842-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Discharge Summary"/>
+    <title>出院病摘單</title>
+    <effectiveTime value="202310201631"/>
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality"
+                         displayName="normal"/>
+    <languageCode code="zh-TW"/>
+    <recordTarget contextControlCode="OP" typeCode="RCT">
+        <patientRole classCode="PAT">
+            <id extension="0617646" root="2.16.886.104.101243.100000"/>
+            <patient classCode="PSN" determinerCode="INSTANCE">
+                <id extension="G000000000" root="2.16.886.101.20003.20001"/>
+                <name>?三丰</name>
+                <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1"
+                                          codeSystemName="AdministrativeGender" displayName="Female"/>
+                <birthTime value="19710616"/>
+            </patient>
+            <providerOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id extension="1134020019" root="2.16.886.101.20003.20014"/>
+                <name>醫療法人OOO醫院</name>
+            </providerOrganization>
+        </patientRole>
+    </recordTarget>
+    <author contextControlCode="OP" typeCode="AUT">
+        <time value="20230926"/>
+        <assignedAuthor classCode="ASSIGNED">
+            <id extension="0092" root="2.16.886.104.101243.100000"/>
+            <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                <name>??忌</name>
+            </assignedPerson>
+        </assignedAuthor>
+    </author>
+    <custodian typeCode="CST">
+        <assignedCustodian classCode="ASSIGNED">
+            <representedCustodianOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id extension="1134020019" root="2.16.886.101.20003.20014"/>
+                <name>醫療法人OOO醫院</name>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <componentOf typeCode="COMP">
+        <encompassingEncounter classCode="ENC" moodCode="EVN">
+            <effectiveTime>
+                <low value="20221006"/>
+                <high value="20230926"/>
+            </effectiveTime>
+            <location typeCode="LOC">
+                <healthCareFacility classCode="SDLOC">
+                    <location classCode="PLC" determinerCode="INSTANCE">
+                        <name>身心暨精神科</name>
+                        <addr>B0618</addr>
+                    </location>
+                </healthCareFacility>
+            </location>
+        </encompassingEncounter>
+    </componentOf>
+    <component contextConductionInd="true" typeCode="COMP">
+        <structuredBody classCode="DOCBODY" moodCode="EVN">
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="46241-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Hospital admission Dx"/>
+                    <title>住院臆斷</title>
+                    <text>
+                        <paragraph>1.Bipoar I disorder, most recent episode, manic with
+                            psychotic feature
+                            2.Type II DM
+                            3.Hyperlipidemia
+                        </paragraph>
+                    </text>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="11535-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Hospital discharge Dx"/>
+                    <title>出院診斷</title>
+                    <text>1: Major depressive disorder, recurrent, severe with psychotic symptoms
+                        2: Type 2 diabetes mellitus without complications
+                        3: Bipolar disorder, in partial remission, most recent episode hypomanic
+                    </text>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="22037-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Cancer Staging"/>
+                    <title>癌症期別</title>
+                    <text>
+                        <paragraph/>
+                    </text>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="10154-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Chief complaint"/>
+                    <title>主訴</title>
+                    <text>
+                        <paragraph>Loose daily life and unstable mood for three weeks
+                        </paragraph>
+                    </text>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="10164-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="History of past illness"/>
+                    <title>病史</title>
+                    <text>
+                        <paragraph>This 42y/o female is a case of major depressive disorder with
+                            psychotic feature. The onset age is at her 36 y/o and she received
+                            irregular f/u at our PSY OPD. Besides, several conflicts with her
+                            husband were noted. Due to her loose life style and poor compliance,
+                            she was admitted to our Daycare for further rehabilitative programs.
+
+                            Colon Diverticulum s/p OP
+                            Spinal injury
+                            Suicide Hx: drug overdose
+                            Homicide Hx: denied
+
+                            No contributory
+                        </paragraph>
+                    </text>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="29545-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Physical findings"/>
+                    <title>理學檢查發現</title>
+                    <text>
+                        <paragraph>
+                            Body height B.H. 147.5 cm
+                            Body weight B.W. 63 kg
+
+                            ＜Vital sign＞ B.T.: 36.6 ℃ P.R.: 72 /min R.R.:
+                            24 /min
+                            B.P.: 110/70 mmHg
+
+                            ＜General appearance＞ mild acute ill
+                            ＜Conscious＞ clear, alert and oriented
+                            GCS: E4V5M6
+                            ＜HEENT＞
+                            -Eyes: conjunctiva: not pale, pink ,
+                            sclera: not icteric , EOM full and freely.
+                            pupils: isocoric, R/L: 3mm/3mm
+                            light reflex: +/+, prompt
+                            -Nose: symmetrical, no lesion , sinus non-tenderness .
+                            -Neck: supple, JVE(-), carotid bruit(-)
+                            LAP(-), ROM full and without tenderness .
+                            -Oral cavity: intact mucosal membrane without injective tonsils
+                            .
+                            ＜Thyroid＞ no enlarged .
+                            ＜Chest ＞
+                            expansion symmetrically, kyphosis(-), scoliosis(-)
+                            Breathing sound: clear bilaterally,
+                            bronchial sound(-), stridor(-), friction rub(-), egophony(-),
+                            vocal fremitus(-)
+                            percussion: tympanic,
+                            ＜Heart＞
+                            RHB, no murmur, no gallop
+                            thrill(-), lift(-)
+                            PMI: at 5th intercostal space, 2 fb to LMCL
+
+                            ＜Abdomen＞
+                            flat and soft, operation scar(-), central obesity(-),
+                            striae(-)
+                            normoactive bowel sound
+                            no superficial vein engorgement,
+                            no palpable mass,
+                            tenderness(-), rebounding pain(-),
+                            shifting dullness(-)
+                            Murphy sign(-), McBourney tenderness(-), Rovsing sign(-),
+                            Obturator sign(-), psoas sign(-)
+                            -Liver: impalpable,
+                            liver span: 8 cm at RMCL
+                            -Spleen: impalpable
+                            ＜Back＞ CV angle knocking pain(-), flank pain(-)
+                            ＜Extremities＞ freely movable, pitting edema (-), cyanosis (-),
+                            clubbing digits (-)
+                            essentially normal
+                            Cranial nerves:
+                            Ⅰ: not checked
+                            Ⅱ: intact
+                            Ⅲ,Ⅳ,ⅤI: EOM: no limitation
+                            V : symmetric facial sensation
+                            Ⅶ: no facial palsy
+                            Ⅷ: hearing: o.k.
+                            Ⅸ,Ⅹ: gag reflex: o.k.
+                            no dysarthria,
+                            no hoarseness
+                            ⅩI: shoulder shrugging: o.k.
+                            ⅩII: tongue protruding: no deviation
+                            JOMAC:intact
+                            Cerebellar function:
+                            Gait: stable
+                            Tandem gait: o.k.
+                            Romberg’s test: negative
+                            RAM: no dysdiadochokinesia
+                            F-N-F test: intact, no dysmetria
+
+                            Muscle power DTR
+                            ＜Lymphadenopathy＞ cervical (-), supraclavicular (-), axillary
+                            (-), inguinal (-)
+                            ＜Digital examination＞ N.P.
+
+                            ＜MSE＞
+                            consciousness: alert
+                            Affect and MOOD: irritable
+                            Speech: loud, coherent, relevant
+                            Behavior: mild agitation
+                            Thought: negative thought, rigid
+                            Perception: normal
+                            JOMAC: intact
+                            INsight: partial
+                        </paragraph>
+                    </text>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Laboratory Data"/>
+                    <title>檢驗</title>
+                    <text>
+                        <paragraph>nil</paragraph>
+                    </text>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="19146-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Specific Examination"/>
+                    <title>特殊檢查</title>
+                    <text>
+                        <paragraph>nil</paragraph>
+                    </text>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="19005-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Imaging Study"/>
+                    <title>醫療影像檢查</title>
+                    <text>
+                        <paragraph>Nil
+                        </paragraph>
+                    </text>
+                    <entry>
+                        <observationMedia classCode="DGIMG" moodCode="EVN">
+                            <value mediaType="image/jpeg" representation="B64"/>
+                        </observationMedia>
+                    </entry>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="22034-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Pathology Report"/>
+                    <title>病理報告</title>
+                    <text>
+                        <paragraph>
+                            Nil
+                        </paragraph>
+                    </text>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="8724-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Surgical Method and finding"/>
+                    <title>手術日期及方法</title>
+                    <text>
+                        <paragraph>
+                            Nil
+                        </paragraph>
+                    </text>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="8648-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Hospital course"/>
+                    <title>住院治療經過</title>
+                    <text>
+                        <paragraph>
+                            after admission, p’t attended regularly. Under behavior modification
+                            and rehabilitation program for social competence, emotion regulation
+                            and muscle durability, better adjustment to mental illness,
+                            interpersonal relathionship, much more adherent to medication and
+                            improving insight about the illness.
+                        </paragraph>
+                    </text>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="55109-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Complications Document"/>
+                    <title>合併症與併發症</title>
+                    <text>
+                        <paragraph>
+                            Nil
+                        </paragraph>
+                    </text>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="8653-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Hospital discharge instructions "/>
+                    <title>出院指示</title>
+                    <text>
+                        <paragraph>2020/10/04 返診
+                        </paragraph>
+                    </text>
+                </section>
+            </component>
+            <component contextConductionInd="true" typeCode="COMP">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <code code="42345-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                          displayName="Discharge Status"/>
+                    <title>出院狀況</title>
+                    <text>
+                        <paragraph/>
+                    </text>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>
